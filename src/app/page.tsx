@@ -9,7 +9,7 @@ export default function Home() {
       <section className="hero-section container my-20"> 
         <div className="flex  items-center justify-between gap-[50px]">
           <div>
-            <h1 className="md:text-5xl text-6xl font-bold">We're <span className="text-primary">Serious</span> For <span className="text-primary">Food</span> & <span className="text-[#FDC55E]">Delivery</span></h1>
+            <h1 className="md:text-5xl text-6xl font-bold">We&apos;re <span className="text-primary">Serious</span> For <span className="text-primary">Food</span> & <span className="text-[#FDC55E]">Delivery</span></h1>
             <p className="text-lg mt-6">
             Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.
             </p>
