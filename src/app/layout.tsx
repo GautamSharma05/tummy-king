@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 const poppins = Poppins({
   weight: ["400", "700"],
@@ -12,7 +13,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Tummy King - Quality At Your Door",
-  description: "Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes. Service Available 24/7 in Ajmer Only",
+  description: "Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 30 minutes. Service Available 24/7 in Ajmer Only",
 };
 
 export default function RootLayout({
@@ -24,7 +25,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={poppins.className}>
       <Header />
-        {children}</body>
+        {children}
+       <Footer /> 
+        </body>
     </html>
   );
 }
