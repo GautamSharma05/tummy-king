@@ -13,7 +13,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      <div className="container">
+      <div className="container mt-4">
         <div className="grid md:grid-cols-12 justify-around gap-4 ">
           <div className="col-span-4">
             <h3 className="text-xl font-semibold">
