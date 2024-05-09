@@ -32,9 +32,7 @@ export default function Header() {
             >
               Recipes
             </Link>
-            <li>Pizza</li>
-            <li>Pasta</li>
-            <li>Burger</li>
+           
           </li>
           <li>
             <Link
