@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <section className="hero-section container my-20">
-        <div className="flex  items-center justify-between gap-[50px]">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-[50px]">
           <div>
             <h1 className="md:text-5xl text-6xl font-bold">
               We&apos;re <span className="text-primary">Serious</span> For{" "}
