@@ -62,7 +62,7 @@ export default function Header() {
       </nav>
 
       <div className="flex flex-row items-center  mb-3 sm:mb-0">
-        <Button className="rounded-full">Download App</Button>
+        <a href="https://play.google.com/store/apps/details?id=com.app.ffc"><Button className="rounded-full">Download App</Button></a>
       </div>
     </header>
   );
