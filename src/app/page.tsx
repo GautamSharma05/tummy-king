@@ -1,11 +1,11 @@
-import Header from "@/components/Header/Header";
+import Link from "next/link";
 import Image from "next/image";
 import "./globals.css";
 import { Button } from "@/components/ui/button";
 export default function Home() {
   return (
     <>
-      <section className="hero-section container my-20">
+      <section className="hero-section container my-5">
         <div className="flex flex-col md:flex-row items-center justify-between gap-[50px]">
           <div>
             <h1 className="md:text-5xl text-6xl font-bold">
@@ -18,7 +18,7 @@ export default function Home() {
               food will reach you in 60 minutes.
             </p>
             <div className="mt-6">
-              <Button className="rounded-full">Download App</Button>
+            <Link href="https://play.google.com/store/apps/details?id=com.app.ffc"><Button className="rounded-full">Download App</Button></Link>
             </div>
           </div>
           <div>

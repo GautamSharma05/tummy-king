@@ -9,11 +9,12 @@ import {
   TwitterIcon,
 } from "lucide-react";
 import React from "react";
+import { Input } from "../ui/input";
 
 export default function Footer() {
   return (
     <footer>
-      <div className="container mt-4">
+      <div className="container my-4">
         <div className="grid md:grid-cols-12 justify-around gap-4 ">
           <div className="col-span-4">
             <h3 className="text-xl font-semibold">
@@ -33,36 +34,36 @@ export default function Footer() {
           <div className="col-span-2">
             <h3 className="text-xl font-semibold text-primary">About Us</h3>
             <ul>
-              <li>Facebook</li>
-              <li>Instagram</li>
-              <li>Twitter</li>
-              <li>LinkedIn</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Blogs</li>
+              <li>Recipies</li>
             </ul>
           </div>
           <div className="col-span-3">
             <h3 className="text-xl font-semibold text-primary">Company</h3>
             <ul>
-              <li>Address: Beawar, Ajmer, Rajasthan</li>
-              <li>Phone: +91 1234567890</li>
-              <li>
-                Email:
-                <a href="mailto:"></a>
-              </li>
+              <li>Privacy</li>
+              <li>Sitemap</li>
+              <li>Term of Use</li>
             </ul>
           </div>
           <div className="col-span-3">
             <h3 className="text-xl font-semibold text-primary">Get In Touch</h3>
-            <ul>
-              <li>Address: Beawar, Ajmer, Rajasthan</li>
-              <li>Phone: +91 1234567890</li>
-              <li>
-                Email:
-                <a href="mailto:"></a>
-              </li>
-            </ul>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
+            <div className="flex mt-5 gap-2">
+                <Input
+                
+                    type="email"
+                    placeholder="Email"
+                    className="px-4 py-1 rounded-full"
+                />
+                <button className="bg-primary rounded-full text-white px-3">Subscribe</button>
+            </div>
           </div>
         </div>
       </div>
+      <p className="text-center text-sm">Copyright © 2024 <span className="text-primary">Tummy </span>King.</p>
     </footer>
   );
 }

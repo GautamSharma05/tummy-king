@@ -26,6 +26,15 @@ export default defineType({
       to: {type: 'author'},
     }),
     defineField({
+      name:'keywords',
+      title: 'Keywords',
+      type: 'array',
+      of: [{type: 'string'}],
+      options: {
+        layout: 'tags',
+      },
+    }),
+    defineField({
       name: 'mainImage',
       title: 'Main image',
       type: 'image',
