@@ -4,16 +4,12 @@ import { PortableText } from "@portabletext/react";
 import imageUrlBuilder from "@sanity/image-url";
 import Image from "next/image";
 import { client } from "../../../sanity/lib/client";
-import { PortableTextBlock } from "sanity";
 import { PortableTextComponents } from "next-sanity";
 import Link from "next/link";
-
 
 const builder = imageUrlBuilder(client);
 
 const Post = ({ post }: { post: SanityDocument }) => {
-  console.log(post);
-
   return (
     <main className="container mx-auto prose prose-xl px-4 py-3">
       <h1 className="text-2xl font-semibold mb-4">{post.title}</h1>
