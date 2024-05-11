@@ -8,16 +8,6 @@ import { PortableTextBlock } from "sanity";
 import { PortableTextComponents } from "next-sanity";
 import Link from "next/link";
 
-type CustomComponents = {
-  block: {
-    h1: PortableTextBlock;
-    h2: PortableTextBlock;
-    h3: PortableTextBlock;
-    h4: PortableTextBlock;
-    blockquote: PortableTextBlock;
-  };
-  // Add other types as needed
-};
 
 const builder = imageUrlBuilder(client);
 
