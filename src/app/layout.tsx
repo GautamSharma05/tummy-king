@@ -13,7 +13,8 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Tummy King - Quality At Your Door",
-  description: "Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 30 minutes. Service Available 24/7 in Ajmer Only",
+  description:
+    "Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 30 minutes. Service Available 24/7 in Ajmer Only",
 };
 
 export default function RootLayout({
@@ -24,10 +25,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={poppins.className}>
-      <Header />
+        <Header />
         {children}
-       <Footer /> 
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }

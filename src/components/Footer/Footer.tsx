@@ -20,7 +20,7 @@ export default function Footer() {
             <h3 className="text-xl font-semibold">
               <span className="text-primary">Tummy</span> King
             </h3>
-            <span className="mt-3">
+            <span className="mt-3 text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor
             </span>
@@ -32,8 +32,8 @@ export default function Footer() {
             </div>
           </div>
           <div className="col-span-2">
-            <h3 className="text-xl font-semibold text-primary">About Us</h3>
-            <ul>
+            <h3 className="text-lg font-medium text-primary">About Us</h3>
+            <ul className="text-sm">
               <li>About Us</li>
               <li>Contact Us</li>
               <li>Blogs</li>
@@ -41,16 +41,16 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col-span-2">
-            <h3 className="text-xl font-semibold text-primary">Company</h3>
-            <ul>
+            <h3 className="text-lg font-medium text-primary">Company</h3>
+            <ul className="text-sm">
               <li>Privacy</li>
               <li>Sitemap</li>
               <li>Term of Use</li>
             </ul>
           </div>
           <div className="col-span-4">
-            <h3 className="text-xl font-semibold text-primary">Get In Touch</h3>
-            <span>
+            <h3 className="text-lg font-medium text-primary">Get In Touch</h3>
+            <span className="text-sm">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor
             </span>
